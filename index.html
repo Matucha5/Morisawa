@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=divice-width, initial-scale=1.0">
-	<title>Morisawa</title>
-	<style>
-		body {
-			margin: 0;
-			padding: 0;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			min-height: 100vh;
-		}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morisawa</title>
+    <style>
+        /* Estilos generales para toda la página (body) */
+        body {
+            margin: 0;              /* Elimina los márgenes predeterminados del navegador para que no haya bordes blancos */
+            padding: 0;
+            display: flex;         /* Habilita el modo flexbox */
+            justify-content: center; /* Centra horizontalmente todo el contenido dentro del body */
+            align-items: center;    /* Centra verticalmente todo el contenido dentro del body (si la página es más alta) */
+            min-height: 100vh;      /* Asegura que el body ocupe al menos toda la altura de la pantalla */
+        }
 
-		img {
-			width: 100%;
-			height: auto;
-			display: block;
-			object-fit: cover;
-		}
-	</style>
+        /* Estilos específicos para la imagen */
+        img {
+            width: 100%;           /* Hace que la imagen ocupe el 100% del ancho del navegador */
+            height: auto;          /* Mantiene la proporción de la imagen para que no se deforme */
+            display: block;        /* Elimina pequeños espacios en blanco debajo de la imagen */
+            object-fit: cover;     /* (Opcional) Ayuda a centrar y rellenar si la imagen no tiene la proporción exacta de la pantalla */
+        }
+    </style>
 </head>
 <body>
-	<img src="Frame_1.png">
+    <img src="Frame_1.png">
 </body>
 </html>
